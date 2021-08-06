@@ -1,7 +1,7 @@
 .container {
   position: fixed;
-  width: 800px;
-  height: 300px;
+  width: 1400px;
+  height: 650px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -22,6 +22,11 @@
   color: black;
   font-size: 1.5em;
   padding: 30px;
+}
+
+.container .content button {
+  position: relative;
+  align-items: center;
 }
 
 body {
