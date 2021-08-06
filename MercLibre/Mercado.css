@@ -1,7 +1,7 @@
 .container {
   position: fixed;
   width: 1400px;
-  height: 650px;
+  height: 450px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -10,8 +10,8 @@
 
 .container .card {
   position: fixed;
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 250px;
   background: rgb(243, 242, 238);
   margin: 20px;
   border-radius: 10px;
@@ -22,14 +22,18 @@
   color: black;
   font-size: 1.5em;
   padding: 30px;
+  align-content: center;
 }
 
-.container .content button {
-  position: relative;
-  align-items: center;
+.container .button {
+  background-color: rgb(243, 242, 238);
+  height: 34px;
+  margin: auto;
+  float: unset;
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(243, 243, 106);
   height: 800px;
 }
