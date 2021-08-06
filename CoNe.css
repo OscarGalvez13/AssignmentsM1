@@ -16,7 +16,9 @@ th {
 table,
 th,
 td {
-  border: 0.1px solid;
+  border: 1px solid;
+  border-style: solid;
+  border-color: black;
 }
 
 a {
