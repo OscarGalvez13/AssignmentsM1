@@ -19,6 +19,6 @@ td {
   border: 0.1px solid;
 }
 
-a:descargas {
-  font: red;
+a {
+  color: red;
 }
